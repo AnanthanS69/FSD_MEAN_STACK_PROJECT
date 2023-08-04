@@ -1,0 +1,17 @@
+
+<div class="container">
+    <div class="row d-flex flex-row card-design">
+            <div class="card  " style="width: 18rem;" *ngFor="let user of data">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-dark"> {{user.name}}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    <i class="bi bi-envelope-at custom-icon"></i>
+                    <a href="mailto:{{user.email}}"> {{user.email}}</a>
+                  </h6>
+                  <p>
+                    <i class="bi bi-person-bounding-box custom-icon"></i> ID No: {{user.id}}
+                  </p>
+                </div>
+              </div>
+    </div>
+  </div>

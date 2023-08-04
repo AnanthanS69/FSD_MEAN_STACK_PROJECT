@@ -1,0 +1,33 @@
+h2{
+  color:rgb(41, 41, 41);
+}
+.outer-box{
+    margin-top: 10%;
+    padding:5%;
+    background-color: rgba(233, 189, 46, 0.409);
+    border:2px solid rgba(255, 255, 255, 0.409);
+}
+.decor2{
+  border:3px solid rgb(216, 202, 0 )
+}
+.decor1{
+  border:3px solid rgb(216, 202, 0)
+}
+.btn{
+  background-color: rgb(255, 255, 255);; 
+  color:rgb(61, 61, 61);
+}
+.container {
+    width:100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+ @media all and (max-width: 700px) and (min-width: 320px) {
+    .container {
+      justify-content: center;
+    }
+    .outer-box{
+        margin-top: 30%;
+    }
+  }
